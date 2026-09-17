@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+
+.body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+.nav{
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  display: flex;
+  justify-content: space-between;
+  background-color: beige
+}
+.bar{
+  display: flex;
+  column-gap: 20px;
+  padding: 10px;
+}
+.bell{
+  color: slategrey;
+  cursor: pointer;
+}
+.side-nav{
+  background-color: slategray;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  height: 100%;
+  width: 20%;
+}
+.side-pro{
+  margin-bottom: 20px;
+}
+.dash{
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  
+}
+.ecard{
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: seashell;
+  position: fixed;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  margin-top: 5%;
+  margin-bottom: 20%; 
+  margin-left: 25%;
+  display: flex;
+}
+.info{
+  padding: 10px;
+}
+.info2{
+  padding: 10px;
+}
+.info3{
+  padding: 10px;
+}
+.info p {
+    margin: 0;
+    font-size: 12px;
+    color: #64748b;
+}
+.info h2 {
+    margin: 6px 0;
+    font-size: 22px;
+}
+.info span {
+    font-size: 11px;
+    color: #18a66a;
+}
+.ecard2{
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: seashell;
+  position: fixed;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  margin-top: 5%;
+  margin-bottom: 20%; 
+  margin-left: 45%;
+ display: flex;
+}
+.ecard3{
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: seashell;
+  position: fixed;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  margin-top: 5%;
+  margin-bottom: 20%; 
+  margin-left: 65%;
+ display: flex;
+}
+.ecard4{
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: seashell;
+  position: fixed;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); 
+  margin-top: 5%;
+  margin-bottom: 20%; 
+  margin-left: 85%;
+ display: flex;
+}
+.form{
+  border: 10px;
+  display: block;
+  padding: 10px;
+  border-top: 10px;
+  
+}
+.add-em{
+  margin-left: 30%;
+  padding: 10px;
+}
+.tab{
+  padding: 10px;
+  margin-top: 10px;
+}
+.tab button{
+  padding: 5px;
+  color: white;
+  background-color: black;
+  border: 0px;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.list{
+  margin-left:30%;
+  padding: 10px;
+  
+}
+#emp-list{
+  padding: 20px;
+ background-color: #64748b;
+}
+#emp-list th{
+   border: 1px solid black;
+}
+#emp-list td{
+   border: 1px solid black;
+}

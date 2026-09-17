@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee management System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>YCheck</h1>
+        <div class="bar">
+        <p class="bell">
+            <i class="fa-solid fa-bell" href=""></i>
+        </p>
+            <a href="">Profile</a>
+        </p>
+       </div>
+       </div>
+       <div class ="side-nav">
+        <p class="side-pro">
+            <i class="fa-solid fa-house"></i>
+            <a href="index.html">Dashboard</a>
+        </p>
+        <p class="side-pro">
+            <i class="fa-solid fa-user-plus"></i>
+            <a href="Add emp.html">Add Employee</a>
+        </p>
+        <p class="side-pro">
+              <i class="fa-solid fa-users"></i>
+            <a href="emplist.html">Employee List</a>
+        </p>
+        <p class="side-pro">
+             <i class="fa-solid fa-gear"></i>
+            <a href="">Setting</a>
+        </p>
+        </div>
+
+
+        <div class="list">
+            <h2>Employee Lists</h2>
+
+        <form>
+        <table id="emp-list">
+            <th>S.No</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+            <th>Email</th>
+            <th>Action</th>
+            <tr><td>1</td>
+                <td>Alex</td>
+                <td>IT</td>
+                <td>10000</td>
+                <td>alex@gmail.com</td>
+              <td>  <button onclick="deleteEmployee(this)">Delete</button> </td>
+            </tr>
+             <tr>
+                <td>2</td>
+                <td>john</td>
+                <td>HR</td>
+                <td>30000</td>
+                <td>john@gmail.com</td>
+              <td>   <button onclick="deleteEmployee(this)">Delete</button> </td>
+            </tr>
+             <tr>
+                <td>3</td>
+                <td>David</td>
+                <td>IT</td>
+                <td>10000</td>
+                <td>david@gmail.com</td>
+                <td><button onclick="deleteEmployee(this)">Delete</button></td>
+            </tr>
+             <tr>
+                <td>4</td>
+                <td>Chrish</td>
+                <td>FINANCE</td>
+                <td>15000</td>
+                <td>chris@gmail.com</td>
+                <td> <button onclick="deleteEmployee(this)">Delete</button></td>
+            </tr>
+              </table>
+              </form>
+
+
+
+</body>
+<script src="emp.js"></script>
+<script> showEmployees();</script>
+</html>
